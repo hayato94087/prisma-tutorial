@@ -8,6 +8,9 @@
     "format:fix": "prisma format",
     "lint": "prisma validate"
   },
+  "prisma": {
+    "seed": "pnpm vite-node prisma/seed.ts"
+  },
   "devDependencies": {
     "@prisma/client": "^5.20.0",
     "@types/node": "^22.7.4",
